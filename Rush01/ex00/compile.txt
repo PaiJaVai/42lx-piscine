@@ -1,0 +1,57 @@
+
+./rush-01 "2 3 3 1 3 2 1 3 2 1 2 3 1 2 3 2"
+
+
+gcc -Wall -Wextra -Werror print_matrix.c restrictions.c static_places/fill_1stphase.c static_places/fill_2ndphase.c static_places/fill_3rdphase.c static_places/fill_4thphase.c dynamic_places/fill_5thphase.c dynamic_places/fill_6thphase.c dynamic_places/fill_7thphase.c dynamic_places/autofill_2.c dynamic_places/autofill_3.c dynamic_places/autofill_4.c dynamic_places/autofill_all.c errors.c main.c -o rush-01
+
+
+./rush-01 "3 1 2 3 1 4 2 2 2 3 2 1 3 2 1 2"
+
+char	g_tab[5][5];
+
+	tab[1][2] = {
+		{4, 2, 1, 3},
+		{4, 1, 2, 3}
+	};
+	tab[1][3] = {
+		{4, 1, 3, 2},
+		{4, 2, 3, 1},
+		{4, 3, 1, 2}
+	};
+	tab[1][4] = {4, 3, 2, 1};
+	tab[2][1] = {
+		{3, 1, 2, 4},
+		{3, 2, 1, 4}
+	};
+	tab[2][2] = {
+		{3, 2, 4, 1},
+		{3, 1, 4, 2},
+		{1, 4, 2, 3},
+		{2, 4, 1, 3},
+		{2, 1, 4, 3},
+		{3, 4, 1, 2}
+	};
+	tab[2][3] = {
+		{1, 4, 3, 2},
+		{2, 4, 3, 1},
+		{3, 4, 2, 1}
+	};
+	tab [3][1] = {
+		{2, 1, 3, 4},
+		{2, 3, 1, 4},
+		{1, 3, 2, 4}
+	};
+	tab[3][2] = {
+		{1, 2, 4, 3},
+		{1, 3, 4, 2},
+		{2, 3, 4, 1}
+	};
+	tab[4][1] = {1, 2, 3, 4};
+
+
+void ft_sol(void)
+{
+
+}
+
+iterate_allrestrictions_callautofill 
