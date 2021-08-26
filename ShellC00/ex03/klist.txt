@@ -1,0 +1,6 @@
+Credentials cache: API:EC4A15ED-4F1A-490D-9EB5-A5B23A1E7E67
+        Principal: bmiguel-@42LISBOA.COM
+
+  Issued                Expires               Principal
+Aug  3 08:43:08 2021  Aug  3 18:43:08 2021  krbtgt/42LISBOA.COM@42LISBOA.COM
+Aug  3 08:43:10 2021  Aug  3 18:43:08 2021  HTTP/student-storage.42lisboa.com@42LISBOA.COM
